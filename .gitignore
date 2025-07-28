@@ -1,0 +1,33 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Environment and dependency files
+venv/
+.env
+.env.*
+
+# Django database and logs
+*.log
+db.sqlite3
+
+# Django migration folders (but keep __init__.py)
+**/migrations/
+!**/migrations/__init__.py
+
+# VS Code and IDE settings
+.vscode/
+.idea/
+
+# Test and coverage
+.coverage
+.pytest_cache/
+htmlcov/
+
+# Build and distribution
+build/
+dist/
+*.egg-info/
+.eggs/
